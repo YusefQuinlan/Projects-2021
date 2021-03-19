@@ -13,3 +13,13 @@ itself, otherwise the program ends.
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Google Trends Analysis - Created (18/03/2021)
+________________________________________________
+The TrendsAnalysis.py file creates several matplotlib plots from data gathered from a csv file containing google trends information, found at https://www.kaggle.com/dhruvildave/google-trends-dataset
+The csv file can also be found in the Analysis folder. The program itself just follows the most popular queries in 2001 to see if they stay relevant over
+time and how relevant they stay. Thats what the plots show. The plots pretty much show that the queries in general fail to stay relevant over time, suggesting
+that trends change over time, in my opinion anyway, this whole problem and program was made/solved in about an hour, so the analysis is not that thorough.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
