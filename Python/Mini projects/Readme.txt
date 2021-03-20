@@ -23,3 +23,11 @@ that trends change over time, in my opinion anyway, this whole problem and progr
 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Public-Api-Fun   - Created (20/03/2021)
+__________________________________________
+The ApiFun.py file is an interface to three different API's, the API's are all public so no API Key is needed. The interface describes each API
+and offers a button to allow users to open a new window that lets them interact with the API. The API's so far allow users to input a number and
+a random fact about that number will be output for the user to see, one generates Chuck Norris jokes, and the final one allows users
+to search for a pokemon and the id of that pokemon will be output for the user to see. These API's aren't very useful, this was just a bit of fun in my
+spare time.
