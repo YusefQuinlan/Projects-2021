@@ -31,3 +31,12 @@ and offers a button to allow users to open a new window that lets them interact 
 a random fact about that number will be output for the user to see, one generates Chuck Norris jokes, and the final one allows users
 to search for a pokemon and the id of that pokemon will be output for the user to see. These API's aren't very useful, this was just a bit of fun in my
 spare time.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Self-Print-Image   - Created(21/03/2021)
+_________________________________________
+The Self-Print-Image.py file is simply a program that reads itself to get its own text, prints out its text, and then creates an image that
+is then overlayed with the text contained within the program. This image is then saved in the directory in which this python program is run.
+The program itself is very simple and not that interesting, however for some reason I found the concept really interesting and am currently considering
+getting this image put on a tshirt and wearing that tshirt around. This has also given me an idea for a larger project.
