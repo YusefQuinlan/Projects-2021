@@ -53,14 +53,34 @@ def regionWindow():
     Listb.config(width=0)
     scroller['command'] = Listb.yview
     Listb['yscrollcommand'] = scroller.set
-    Listb.insert(END,"KKccccccccccccccccccccK")
+    for i in Grouped_locs:
+        Listb.insert(END,i)
     regF.pack(side=TOP)
     regF2 = Frame(regF)
-    Btn = Button(regF2, text="Play Audio")
+    Btn = Button(regF2, text="Open Region's window!")
     Btn.pack()
     regF2.pack(side=TOP)
     Wind.mainloop()
 
+def countryWindow():
+    Wind = Tk()
+    Wind.title("Country Select")
+    regF = Frame(Wind)
+    scroller = Scrollbar(regF)
+    Listb = Listbox(regF)
+    scroller.pack(side=RIGHT, fill=Y)
+    Listb.pack(side=LEFT, fill=Y)
+    Listb.config(width=0)
+    scroller['command'] = Listb.yview
+    Listb['yscrollcommand'] = scroller.set
+    for i in Countries:
+        Listb.insert(END,i)
+    regF.pack(side=TOP)
+    regF2 = Frame(regF)
+    Btn = Button(regF2, text="Open Country's window!")
+    Btn.pack()
+    regF2.pack(side=TOP)
+    Wind.mainloop()
 
 Window = Tk()
 Window.title("COVID Area Selections")
@@ -97,7 +117,7 @@ RegionBtn.grid(row=2,column=0)
 lab2 = Label(Window,text=" ")
 lab2.grid(row=3,column=0)
 CountryText = "Click this button to open up the Countries Window!"
-CountryBtn = Button(Window,text=CountryText)
+CountryBtn = Button(Window,text=CountryText, command=countryWindow)
 CountryBtn.grid(row=4,column=0)
 lab3 = Label(Window,text=" ")
 lab3.grid(row=5,column=0)

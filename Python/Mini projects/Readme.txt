@@ -40,3 +40,15 @@ The Self-Print-Image.py file is simply a program that reads itself to get its ow
 is then overlayed with the text contained within the program. This image is then saved in the directory in which this python program is run.
 The program itself is very simple and not that interesting, however for some reason I found the concept really interesting and am currently considering
 getting this image put on a tshirt and wearing that tshirt around. This has also given me an idea for a larger project.
+
+
+HTML Make    - Created(24/03/2021)
+____________________________________
+the HTML Make.py file allows a user to create a html file and add various tags one after another to said html file. Its not a very complex program
+and does not allow the user to see what they are creating, and only <p> tags, h1/h2 tags and anchor tags can be added to any html file this program creates.
+Originally I wanted to make an interface that allows the user to see the html tags as the program is making the html page, but it proved to be too difficult
+for an hours work. Had this project been given more time I'd have figured out the scroller issues and made the program a little better. The program still
+allows the user to make a customised html file, it is limited in scope, but I would still regard the program as a success. I am aware that anything other than
+'n' or 'y' will cause the program to function in an unintended way, but these are meant to be mini projects made in an hour or less and its not that I am unaware
+of problems, I simply set out to solve a problem in a simple way with these programs.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
