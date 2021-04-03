@@ -14,6 +14,7 @@ import datetime
 import os
 df1 = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv')
 
+#Total cases
 df2 = df1[['location','date','total_cases']]
 
 df3 = df2.loc[df2['location'] == 'Chile']
